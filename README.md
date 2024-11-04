@@ -14,7 +14,7 @@ To write a program to predict the price of the house and number of occupants in 
 3. Since SGD is sensitive to feature scales, use StandardScaler to standardize both X and Y.
 4. Set up an SGDRegressor with parameters like max_iter=1000 and tol=1e-3.
 5. Use the trained model to make predictions on the standardized test set (X_test).
-6. 
+
 ## Program:
 ```
 /*
