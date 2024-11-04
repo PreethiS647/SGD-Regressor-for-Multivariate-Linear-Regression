@@ -8,15 +8,13 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Start
-2. Data Preparation 
-3. Hypothesis Definition 
-4. Cost Function
-5. Parameter Update Rule
-6. Iterative Training
-7. Model Evaluation
-8. End
 
+1. Use the California Housing dataset from Scikit-Learn, which contains information on house prices and other housing-related features.
+2. Split X and Y into training and testing sets using an 80-20 split. The training set will be used to fit the model, while the test set will evaluate its performance.
+3. Since SGD is sensitive to feature scales, use StandardScaler to standardize both X and Y.
+4. Set up an SGDRegressor with parameters like max_iter=1000 and tol=1e-3.
+5. Use the trained model to make predictions on the standardized test set (X_test).
+6. 
 ## Program:
 ```
 /*
