@@ -16,12 +16,13 @@ To write a program to predict the price of the house and number of occupants in 
 5. Use the trained model to make predictions on the standardized test set (X_test).
 
 ## Program:
-```
-/*
+
+
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
 Developed by: Preethi S
 RegisterNumber:  212223230157
 
+`````
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
@@ -58,8 +59,8 @@ mse=mean_squared_error(Y_test,Y_pred)
 print("Mean Squared Error: ",mse)
 print("\nPredictions:\n",Y_pred[:5])
 
-*/
-```
+
+`````
 
 ## Output:
 
