@@ -22,7 +22,7 @@ Program to implement the multivariate linear regression model for predicting the
 Developed by: Preethi S
 RegisterNumber:  212223230157
 
-
+```
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
@@ -58,7 +58,7 @@ Y_test = scaler_Y.inverse_transform(Y_test)
 mse=mean_squared_error(Y_test,Y_pred)
 print("Mean Squared Error: ",mse)
 print("\nPredictions:\n",Y_pred[:5])
-
+```
 
 
 
